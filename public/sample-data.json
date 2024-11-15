@@ -1,0 +1,50 @@
+{  
+      "home":{
+        "path": "/",
+        "meta": {
+          "title": "Home - Simple Static Website",
+          "description": "Welcome to the Simple Static Website. Discover our features and learn more about what we do."
+        },
+        "content": {
+          "h1": "Welcome to Our Website",
+          "description": "We provide simple and elegant static web solutions to make your online presence shine."
+        }
+      
+      },
+  "about":{
+    "path": "/about",
+        "meta": {
+          "title": "About Us - Simple Static Website",
+          "description": "Learn more about Simple Static Website and what drives our passion for delivering exceptional services."
+        },
+        "content": {
+          "h1": "About Us",
+          "description": "Simple Static Website was founded with the goal of providing lightweight and fast web solutions for everyone."
+        }
+   },
+      "services": {
+        "path": "services",
+        "meta": {
+          "title": "Our Services - Simple Static Website",
+          "description": "Explore our range of services designed to meet your website needs with simplicity and efficiency."
+        },
+        "content": {
+          "h1": "Our Services",
+          "description": "From web design to SEO optimization, we offer everything you need to get your website running smoothly."
+        }
+      },
+      "contact":{
+        "path": "contact",
+        "meta": {
+          "title": "Contact Us - Simple Static Website",
+          "description": "Get in touch with us for any inquiries or support. We're here to help you achieve your website goals."
+        },
+        "content": {
+          "h1": "Contact Us",
+          "description": "Have a question or need support? Feel free to reach out to us, and we’ll be happy to assist you."
+        }
+      }
+  
+
+    }
+
