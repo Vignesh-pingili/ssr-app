@@ -2,6 +2,7 @@ import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 import path from 'path';
 import fs from 'fs';
+import NavBar from '@/app/components/nav';
 
 interface HomePageProps {
   title: string;
@@ -11,7 +12,6 @@ interface HomePageProps {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  // Read JSON data from the file in the 'public' directory
   const filePath = path.join(process.cwd(), 'public', 'sample-data.json');
   const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
@@ -34,6 +34,7 @@ export default function Page({ title, description, heading, body }: HomePageProp
       </Head>
 
       <main>
+        <NavBar/>
         <h1>{heading}</h1>
         <p>{body}</p>
       </main>

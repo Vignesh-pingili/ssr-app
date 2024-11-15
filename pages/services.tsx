@@ -2,6 +2,7 @@ import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 import path from 'path';
 import fs from 'fs';
+import NavBar from '@/app/components/nav';
 
 interface ContactPageProps {
   title: string;
@@ -34,6 +35,7 @@ export default function AboutPage({ title, description, heading, body }: Contact
       </Head>
 
       <main>
+         <NavBar/>
         <h1>{heading}</h1>
         <p>{body}</p>
       </main>
